@@ -22,7 +22,8 @@ BugReports: https://github.com/artaylor85/pixelate/issues
 Encoding: UTF-8
 LazyData: true
 Imports:
-    dplyr (>= 0.8.3)
+    dplyr (>= 0.8.3),
+    sp
 Suggests:
     ggplot2 (>= 3.2.1),
     markdown,
