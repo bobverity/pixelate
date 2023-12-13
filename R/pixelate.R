@@ -186,7 +186,7 @@ pixelate <- function(obs_df,
         non-uniform.\n")
 
   # Set obs_df to data.frame if not already
-  if (class(obs_df) != "data.frame") {
+  if (inherits(obs_df, "data.frame")) {
     obs_df <- as.data.frame(obs_df)
   }
 

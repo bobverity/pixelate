@@ -78,7 +78,6 @@
 #'
 #' An object of class SpatialPolygonsDataFrame from the R package \strong{sp} v1.3-1 (see reference) containing shape file data for sub-Saharan Africa.
 #'
-#' @format
 #' @source Obtained using malariaAtlas::getShp; see \url{https://github.com/artaylor85/pixelate/blob/master/data-raw/get_shape_files.R}.
 #' @seealso \url{https://www.rdocumentation.org/packages/sp/versions/1.3-1/topics/SpatialPolygonsDataFrame-class}
 #' @references Pebesma, E., 2018. Simple Features for R: Standardized Support
@@ -91,7 +90,6 @@
 #'
 #' An object of class SpatialPolygonsDataFrame from the R package \strong{sp} v1.3-1 (see reference) containing shape file data for central Africa.
 #'
-#' @format
 #' @source Obtained using malariaAtlas::getShp; see \url{https://github.com/artaylor85/pixelate/blob/master/data-raw/get_shape_files.R}.
 #' @seealso \url{https://www.rdocumentation.org/packages/sp/versions/1.3-1/topics/SpatialPolygonsDataFrame-class}
 #' @references Pebesma, E., 2018. Simple Features for R: Standardized Support

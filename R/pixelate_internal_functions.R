@@ -117,6 +117,9 @@ compute_num_pix_xy <- function(opp, obs_df_dim) {
 #=================================================================================
 expand_obs_df <- function(opp, obs_df) {
 
+  # avoid "no visible binding" note
+  x <- y <- NULL
+
   # Extract the number of pixel sizes
   bigk <- nrow(opp)
 
@@ -214,7 +217,11 @@ allocate_obs_mem <- function(opp, obs_df_dim) {
 # Function to pixelate as per average uncertainty averaged over
 # large pixels (pixels of the bigk-th size)
 #============================================================
+#' @importFrom stats quantile
 pixelate_by_u <- function(obs_df, obs_mem, opp) {
+
+  # avoid "no visible binding" note
+  x <- y <- NULL
 
   # Arrange s.t. compatible with membership allocation
   obs_df <- dplyr::arrange(obs_df, y, x)
