@@ -1,6 +1,6 @@
 Package: pixelate
 Title: Pixelate spatial predictions as per their average uncertainty 
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: c(
     person(given = "Aimee", family = "Taylor", role = c("aut", "cre"), email = "ataylor@hsph.harvard.edu"), 
     person(given = "James", family = "Watson", role = "aut"),
@@ -22,11 +22,13 @@ BugReports: https://github.com/artaylor85/pixelate/issues
 Encoding: UTF-8
 LazyData: true
 Imports:
-    dplyr (>= 0.8.3)
+    dplyr (>= 0.8.3),
+    sp
 Suggests:
     ggplot2 (>= 3.2.1),
     markdown,
     knitr (>= 1.24),
     rmarkdown (>= 1.15)
-RoxygenNote: 7.1.0
+RoxygenNote: 7.2.3
 VignetteBuilder: knitr
+LazyDataCompression: xz
