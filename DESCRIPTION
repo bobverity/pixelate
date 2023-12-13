@@ -1,4 +1,4 @@
-Package: pixelate_fork
+Package: pixelate.fork
 Title: Pixelate spatial predictions as per their average uncertainty 
 Version: 0.0.1
 Authors@R: c(
